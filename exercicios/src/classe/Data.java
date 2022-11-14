@@ -7,14 +7,15 @@ public class Data {
 	int ano;
 	
 	Data() {
-		dia = 1;
-		mes = "Janeiro";
-		ano = 1970;
+//		dia = 1;
+//		mes = "Janeiro";
+//		ano = 1970;
+		this(05, "Janeiro", 2001);
 	}
 	
 	
 	public Data(int dia, String mes, int ano) {
-		this.dia = dia;
+		this.dia = dia; // usando o this para acesar a variável da instância
 		this.mes = mes;
 		this.ano = ano;
 	}
@@ -22,11 +23,11 @@ public class Data {
 
 	//Principal
 	String obterDataFormatada() {
-		return String.format("%d de %s de %d \n", dia, mes, ano);
+		return String.format("%d de %s de %d \n", this.dia, mes, ano);
 	}
 	
 	void imprimirDataFormatada() {
-		System.out.println(obterDataFormatada());
+		System.out.println(this.obterDataFormatada());
 	}
 	
 }
