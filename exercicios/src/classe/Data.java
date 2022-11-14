@@ -23,7 +23,8 @@ public class Data {
 
 	//Principal
 	String obterDataFormatada() {
-		return String.format("%d de %s de %d \n", this.dia, mes, ano);
+		final String formato = "%d de %s de %d \n";
+		return String.format(formato, this.dia, mes, ano);
 	}
 	
 	void imprimirDataFormatada() {
