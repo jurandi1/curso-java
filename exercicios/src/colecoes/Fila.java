@@ -23,10 +23,7 @@ public class Fila {
 		System.out.println(fila.peek()); // Retorna null
 		System.out.println(fila.peek()); 
 		System.out.println(fila.element()); // Lança uma exceção
-		
-		// fila.size();
-		// fila.clear();
-		// fila.isEmpty();
+
 		
 		// poll e remove -> obter o próximo elemento da fila e remove!
 		// A diferença do comporatamento ocorre quando a fila esta vazia!
@@ -37,5 +34,11 @@ public class Fila {
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
+		
+		// fila.size();
+		// fila.clear();
+		// fila.isEmpty();
+		// fila.contains(...);
+		
 	}
 }
