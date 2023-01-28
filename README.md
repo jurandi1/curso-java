@@ -23,4 +23,4 @@ Você pode acessar o código fonte de cada parte da liguagem que está sendo est
 
 ##
 
-![Badge license](https://img.shields.io/github/license/jurandi1/aluramidi)
+![Badge license](https://img.shields.io/github/license/jurandi1/Curso-java)
