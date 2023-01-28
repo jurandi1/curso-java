@@ -2,13 +2,6 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-# Índice 
-
-* [Introdução](#Introdução)
-* [Ferramentas utilizadas](#Ferramentas-utilizadas)
-* [Acesso ao projeto](#Acesso-ao-projeto)
-* [Desenvolvedor](#Desenvolvedor)
-
 <h2>Introdução</h2>
 
 Códigos criados a partir do curso de Java da [Udemy](https://www.udemy.com/course/fundamentos-de-programacao-com-java/) com o instrutor [Leonardo Moura Leitao](https://www.udemy.com/user/leonardomouraleitao/), onde estamos explorando as diversas funcionalidades que essa linguagem contém.
